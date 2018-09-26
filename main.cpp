@@ -3,7 +3,9 @@
 #include "Animal.h"
 
 int main() {
-
+  Cat cat;
+  std::cout << cat.MakeSound() << std::endl;
+  
   Horse horsey;
 	std::cout << horsey.MakeSound() << std::endl;
   
@@ -13,8 +15,5 @@ int main() {
 	std::cout << turtle_friend.MakeSound() << std::endl;
 	std::cout << dog_friend.MakeSound() << std::endl;
 
-	Animal giraffe = Giraffe();
-	std::cout << giraffe.MakeSound() << std::endl;
-  
 	return 0;
 }
