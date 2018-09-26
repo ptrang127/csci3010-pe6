@@ -29,21 +29,21 @@ public:
 
 };
 
-class Panda : public Animal {
+class Horse : public Animal {
 public:
-	Panda():
-	Animal("pan pan pan pannnnddaaaaaa") {}
+	Horse():
+	Animal("hey hey heyyy") {}
 
-	int GetPower() { return 61; };
+	int GetPower() { return 91; };
 };
 
-class Giraffe : public Animal {
+class Cat : public Animal {
 public:
-    Giraffe():
-    Animal("giraffe giraffe"){}
+    Cat():
+    Animal("meow"){}
 
     int GetPower() { return 9001; };
-
+  
 };
 
 // Define your animals here
