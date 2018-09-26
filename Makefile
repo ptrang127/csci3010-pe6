@@ -9,6 +9,7 @@ CXXFLAGS = -std=c++11 -ggdb -Wall  # flags for the compiler (use c++11 standards
 all: animal
 
 animal: main.o Animal.o
+<<<<<<< HEAD
 	$(CXX) $(CXXFLAGS) main.o Animal.o -o animal # name of output should be consistent
 
 # runs for "make main.o"
