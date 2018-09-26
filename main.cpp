@@ -3,7 +3,7 @@
 
 int main() {
 
-    Animal giraffe = Giraffe();
-    std::cout << giraffe.MakeSound() << std::endl;
+    Cat cat;
+    std::cout << cat.MakeSound() << std::endl;
 	return 0;
 }

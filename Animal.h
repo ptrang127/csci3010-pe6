@@ -28,10 +28,10 @@ public:
 
 };
 
-class Giraffe : public Animal {
+class Cat : public Animal {
 public:
-    Giraffe():
-    Animal("giraffe giraffe"){}
+    Cat():
+    Animal("meow"){}
 
     int GetPower() { return 9001; };
 
