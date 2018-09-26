@@ -1,1 +1,5 @@
-# csci3010-pe6
+**Person 1:** Jake   
+**Person 2:** Phi  
+**Person 3:** Cristian   
+ 
+
