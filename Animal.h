@@ -31,7 +31,7 @@ public:
 class Panda : public Animal {
 public:
 	Panda():
-	Animal("Panda") {}
+	Animal("pan pan pan pannnnddaaaaaa") {}
 
 	int GetPower() { return 61; };
 
