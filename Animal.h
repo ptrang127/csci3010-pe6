@@ -29,6 +29,23 @@ public:
 
 };
 
+class Panda : public Animal {
+public:
+	Panda():
+	Animal("pan pan pan pannnnddaaaaaa") {}
+
+	int GetPower() { return 61; };
+};
+
+class Giraffe : public Animal {
+public:
+    Giraffe():
+    Animal("giraffe giraffe"){}
+
+    int GetPower() { return 9001; };
+
+};
+
 // Define your animals here
 
 class Dog : public Animal {
