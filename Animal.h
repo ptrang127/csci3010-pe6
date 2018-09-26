@@ -1,6 +1,7 @@
 #ifndef _ANIMAL_H_
 #define _ANIMAL_H_
 
+#include <string>
 class Animal {
 public:
 	Animal(std::string sound):
@@ -46,5 +47,16 @@ public:
 };
 
 // Define your animals here
+
+class Dog : public Animal {
+public:
+        Dog():
+        Animal("dog dog dog")
+        {}
+
+
+        int GetPower() { return 3; };
+
+};
 
 #endif  // _ANIMAL_H_
