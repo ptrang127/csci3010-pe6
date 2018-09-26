@@ -28,6 +28,15 @@ public:
 
 };
 
+class Panda : public Animal {
+public:
+	Panda():
+	Animal("Panda") {}
+
+	int GetPower() { return 61; };
+
+};
+
 // Define your animals here
 
 #endif  // _ANIMAL_H_
