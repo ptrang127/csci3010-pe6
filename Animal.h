@@ -28,12 +28,12 @@ public:
 
 };
 
-class Panda : public Animal {
+class Horse : public Animal {
 public:
-	Panda():
-	Animal("pan pan pan pannnnddaaaaaa") {}
+	Horse():
+	Animal("hey hey heyyy") {}
 
-	int GetPower() { return 61; };
+	int GetPower() { return 91; };
 
 };
 

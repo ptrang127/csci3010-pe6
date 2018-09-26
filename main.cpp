@@ -2,8 +2,8 @@
 #include "Animal.h"
 
 int main() {
-	Panda panda;
-	std::cout << panda.MakeSound() << std::endl;
+	Horse horsey;
+	std::cout << horsey.MakeSound() << std::endl;
 
 	return 0;
 }
